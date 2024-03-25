@@ -1,0 +1,2664 @@
+{
+    "current_profile": "Normal Play",
+    "profiles": {
+        "Abyss": {
+            "Auto Seelie": {
+                "Enabled": {
+                    "toggled": true,
+                    "value": null
+                }
+            },
+            "AutoLoot": {
+                "AutoPickup": {
+                    "toggled": false,
+                    "value": null
+                },
+                "DelayTime": 250,
+                "DelayTimeFluctuation": 50,
+                "UseDelayTimeFluctuation": {
+                    "toggled": false,
+                    "value": null
+                }
+            },
+            "AutoTalk": {
+                "Cutscene": {
+                    "toggled": false,
+                    "value": null
+                },
+                "CutsceneUSM": {
+                    "toggled": true,
+                    "value": null
+                },
+                "Enabled": {
+                    "toggled": false,
+                    "value": 4
+                },
+                "FastDialog": {
+                    "toggled": true,
+                    "value": null
+                },
+                "TimeSpeedup": 10.0
+            },
+            "ChestTeleport": {
+                "Key": 54
+            },
+            "CustomWeather": {
+                "Enabled": {
+                    "toggled": false,
+                    "value": null
+                },
+                "WeatherType": {
+                    "name": "RainHeavy",
+                    "value": 4
+                }
+            },
+            "ESP": {
+                "Enabled": {
+                    "toggled": true,
+                    "value": null
+                },
+                "Filters": {
+                    "Chest": {
+                        "Common Chest": {
+                            "color": 4294967295,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Exquisite Chest": {
+                            "color": 4278254335,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Luxurious Chest": {
+                            "color": 4278190335,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Precious Chest": {
+                            "color": 4294955008,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Remarkable Chest": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        }
+                    },
+                    "Collection": {
+                        "Radiant Spincrystal": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        }
+                    },
+                    "Featured": {
+                        "Dendroculus": {
+                            "color": 4278255380,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Hydroculus": {
+                            "color": 4294919424,
+                            "enabled": true,
+                            "hotkey": null
+                        }
+                    },
+                    "Plant": {
+                        "Henna Berry": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        }
+                    }
+                },
+                "GlobalBoxColor": {
+                    "toggled": false,
+                    "value": 4278246909
+                },
+                "GlobalFontColor": {
+                    "toggled": true,
+                    "value": 4278190335
+                },
+                "GlobalLineColor": {
+                    "toggled": true,
+                    "value": 4278255419
+                }
+            },
+            "ElementalAura": {
+                "ApplyInterval": 1000,
+                "Durability": 250.0,
+                "Enabled": {
+                    "toggled": false,
+                    "value": null
+                },
+                "IncludeObjects": false,
+                "MultiElement": true,
+                "MultiElementAdd": {
+                    "name": "Hydro",
+                    "value": 1
+                },
+                "QueueDelay": 1000
+            },
+            "ExtraMovement": {
+                "Enabled": {
+                    "toggled": false,
+                    "value": null
+                },
+                "RunOnWater": {
+                    "toggled": false,
+                    "value": null
+                }
+            },
+            "General": {
+                "FPS": {
+                    "FpsShow": {
+                        "toggled": true,
+                        "value": null
+                    }
+                },
+                "InfoWindow": {
+                    "InfoShow": {
+                        "toggled": false,
+                        "value": null
+                    }
+                },
+                "Notify": {
+                    "NotificationsShow": {
+                        "toggled": true,
+                        "value": null
+                    }
+                },
+                "SelectedModule": 1,
+                "StatusWindow": {
+                    "StatusShow": {
+                        "toggled": true,
+                        "value": null
+                    }
+                }
+            },
+            "GodMode": {
+                "Enabled": {
+                    "toggled": false,
+                    "value": null
+                },
+                "MinHealth": 20.0,
+                "MissingRate": 90.0,
+                "Undead": false
+            },
+            "InteractiveMap": {
+                "Enabled": {
+                    "toggled": true,
+                    "value": null
+                },
+                "Filters": {
+                    "Scene3": {
+                        "Hydroculus": true
+                    }
+                },
+                "IconSize": 25.649999618530273,
+                "MinimapIconSize": 26.540000915527344,
+                "SeparatedWindows": false
+            },
+            "KillAura": {
+                "AttackDelay": 1000,
+                "DamageMode": {
+                    "toggled": false,
+                    "value": null
+                },
+                "DamageValue": 100000.0,
+                "Enabled": {
+                    "toggled": false,
+                    "value": null
+                },
+                "OnlyTargeted": false,
+                "RepeatDelay": 2000
+            },
+            "MobVacuum": {
+                "Enabled": {
+                    "toggled": false,
+                    "value": null
+                }
+            },
+            "NoCD": {
+                "AbilityReduce": {
+                    "toggled": true,
+                    "value": null
+                },
+                "AvatarCD": {
+                    "toggled": true,
+                    "value": null
+                },
+                "InstantBow": {
+                    "toggled": true,
+                    "value": null
+                },
+                "InstantBow_Bow": true,
+                "Sprint": {
+                    "toggled": true,
+                    "value": null
+                },
+                "TimerReduce": 5.0
+            },
+            "NoClip": {
+                "Enabled": {
+                    "toggled": false,
+                    "value": 186
+                }
+            },
+            "OculiTeleport": {
+                "Key": 55
+            },
+            "OpenTeam": {
+                "Enabled": {
+                    "toggled": true,
+                    "value": null
+                }
+            },
+            "QuestTeleport": {
+                "Key": 86,
+                "QuestTP": {
+                    "toggled": false,
+                    "value": 186
+                }
+            },
+            "RapidFire": {
+                "CriticalHit": {
+                    "toggled": true,
+                    "value": null
+                },
+                "CriticalHitChance": 90,
+                "Enabled": {
+                    "toggled": true,
+                    "value": null
+                },
+                "HeadShot": {
+                    "toggled": true,
+                    "value": null
+                },
+                "Infusion": {
+                    "toggled": false,
+                    "value": null
+                },
+                "MultiHit": {
+                    "toggled": true,
+                    "value": null
+                },
+                "NullIncomingElement": {
+                    "toggled": true,
+                    "value": null
+                }
+            },
+            "SkinModifier": {
+                "Ambor_100Outrider": true,
+                "Ayaka_SpringbloomMissive": true,
+                "Barbara_SummertimeSparkle": true,
+                "Diluc_RedDeadOfNight": true,
+                "Enabled": {
+                    "toggled": true,
+                    "value": null
+                },
+                "Fischl_EinImmernachtstraum": true,
+                "Ganyu_TwilightBlossom": true,
+                "Kaeya_SailwindShadow": true,
+                "Keqing_OpulentSplendor": true,
+                "Klee_BlossomingStarlight": true,
+                "Lisa_ASobriquetUnderShade": true,
+                "Mona_PactOfStarsandMoon": true,
+                "Ningguang_OrchidsEveningGown": true,
+                "Qin_GunnhildrsLegacy": true,
+                "Qin_SeaBreezeDandelion": true,
+                "Rosaria_ToTheChurchsFreeSpirit": true,
+                "Shenhe_FrostflowerDew": true,
+                "Xingqiu_BambooRain": true
+            },
+            "SkipEnhanceAnimation": {
+                "Enabled": true
+            },
+            "VacuumLoot": {
+                "Enabled": {
+                    "toggled": false,
+                    "value": null
+                }
+            },
+            "Visuals": {
+                "ChestIndicator": {
+                    "Enabled": {
+                        "toggled": true,
+                        "value": null
+                    }
+                },
+                "EnablePeeking": {
+                    "Enabled": {
+                        "toggled": true,
+                        "value": null
+                    }
+                },
+                "FPSUnlocker": {
+                    "Enabled": true
+                },
+                "NoFog": {
+                    "Enabled": {
+                        "toggled": false,
+                        "value": null
+                    }
+                },
+                "NoGrass": {
+                    "Enabled": {
+                        "toggled": true,
+                        "value": null
+                    }
+                },
+                "ProfileChanger": {
+                    "Enabled": {
+                        "toggled": true,
+                        "value": null
+                    },
+                    "UID": {
+                        "toggled": true,
+                        "value": "Profile: <color=#ff99ff>Abyss</color>"
+                    }
+                }
+            }
+        },
+        "Coop": {
+            "AutoLoot": {
+                "AutoPickup": {
+                    "toggled": true,
+                    "value": null
+                },
+                "AutoTreasure": {
+                    "toggled": false,
+                    "value": null
+                },
+                "DelayTimeFluctuation": 100,
+                "Leyline": false,
+                "UseCustomRange": {
+                    "toggled": true,
+                    "value": null
+                },
+                "UseDelayTimeFluctuation": {
+                    "toggled": true,
+                    "value": null
+                }
+            },
+            "AutoTalk": {
+                "AutoSelectDialog": {
+                    "toggled": false,
+                    "value": null
+                },
+                "AutoTalk": {
+                    "toggled": true,
+                    "value": null
+                }
+            },
+            "General": {
+                "SelectedModule": 5
+            },
+            "GodMode": {
+                "Enabled": {
+                    "toggled": true,
+                    "value": null
+                },
+                "Undead": true
+            },
+            "InfiniteStamina": {
+                "Enabled": {
+                    "toggled": true,
+                    "value": null
+                }
+            },
+            "NoCD": {
+                "AbilityReduce": {
+                    "toggled": true,
+                    "value": null
+                },
+                "AvatarCD": {
+                    "toggled": true,
+                    "value": null
+                },
+                "Sprint": {
+                    "toggled": true,
+                    "value": null
+                },
+                "TimerReduce": 5.0
+            },
+            "OpenTeam": {
+                "Enabled": {
+                    "toggled": true,
+                    "value": null
+                }
+            },
+            "RapidFire": {
+                "CriticalHit": {
+                    "toggled": true,
+                    "value": null
+                },
+                "Enabled": {
+                    "toggled": true,
+                    "value": null
+                },
+                "HeadShot": {
+                    "toggled": true,
+                    "value": null
+                }
+            },
+            "SkinModifier": {
+                "Ambor_100Outrider": true,
+                "Ayaka_SpringbloomMissive": true,
+                "Barbara_SummertimeSparkle": true,
+                "Diluc_RedDeadOfNight": true,
+                "Enabled": {
+                    "toggled": true,
+                    "value": null
+                },
+                "Fischl_EinImmernachtstraum": true,
+                "Ganyu_TwilightBlossom": true,
+                "Kaeya_SailwindShadow": true,
+                "Keqing_OpulentSplendor": true,
+                "Klee_BlossomingStarlight": true,
+                "Lisa_ASobriquetUnderShade": true,
+                "Mona_PactOfStarsandMoon": true,
+                "Ningguang_OrchidsEveningGown": true,
+                "Qin_GunnhildrsLegacy": true,
+                "Qin_SeaBreezeDandelion": true,
+                "Rosaria_ToTheChurchsFreeSpirit": true,
+                "Shenhe_FrostflowerDew": true,
+                "Xingqiu_BambooRain": true
+            },
+            "SkipEnhanceAnimation": {
+                "Enabled": true
+            },
+            "Visuals": {
+                "ChestIndicator": {
+                    "Enabled": {
+                        "toggled": false,
+                        "value": null
+                    }
+                },
+                "EnablePeeking": {
+                    "Enabled": {
+                        "toggled": true,
+                        "value": null
+                    }
+                },
+                "NoBlackScreen": {
+                    "Enabled": {
+                        "toggled": true,
+                        "value": null
+                    }
+                },
+                "NoBurstAnimation": {
+                    "Enabled": {
+                        "toggled": true,
+                        "value": null
+                    }
+                },
+                "NoCameraBlur": {
+                    "Enabled": {
+                        "toggled": true,
+                        "value": null
+                    }
+                },
+                "NoCameraShake": {
+                    "Enabled": {
+                        "toggled": true,
+                        "value": null
+                    }
+                },
+                "NoFog": {
+                    "Enabled": {
+                        "toggled": true,
+                        "value": null
+                    }
+                },
+                "NoFootprints": {
+                    "Enabled": {
+                        "toggled": true,
+                        "value": null
+                    }
+                },
+                "NoGrass": {
+                    "Enabled": {
+                        "toggled": true,
+                        "value": null
+                    }
+                },
+                "NoMapFog": {
+                    "Enabled": {
+                        "toggled": true,
+                        "value": null
+                    }
+                },
+                "ProfileChanger": {
+                    "Enabled": {
+                        "toggled": true,
+                        "value": null
+                    },
+                    "UID": {
+                        "toggled": true,
+                        "value": "Profile: <color=#ff99ff>Coop</color>"
+                    }
+                }
+            }
+        },
+        "DailyTP": {
+            "AutoActivateTeleport": {
+                "Enabled": {
+                    "toggled": true,
+                    "value": null
+                }
+            },
+            "AutoDestroy": {
+                "DestroyDoodads": {
+                    "toggled": true,
+                    "value": null
+                },
+                "DestroyOres": {
+                    "toggled": true,
+                    "value": null
+                },
+                "DestroyPlants": {
+                    "toggled": true,
+                    "value": null
+                },
+                "DestroyShields": {
+                    "toggled": true,
+                    "value": null
+                },
+                "DestroySpecialChests": {
+                    "toggled": false,
+                    "value": null
+                },
+                "DestroySpecialObjects": {
+                    "toggled": false,
+                    "value": null
+                },
+                "Enabled": {
+                    "toggled": true,
+                    "value": null
+                },
+                "Range": 20.0
+            },
+            "AutoLoot": {
+                "AutoDisablePickupWhenAddItemExceedLimit": {
+                    "toggled": true,
+                    "value": null
+                },
+                "AutoPickup": {
+                    "toggled": true,
+                    "value": null
+                },
+                "AutoTreasure": {
+                    "toggled": true,
+                    "value": null
+                },
+                "CustomRange": 20.0,
+                "DelayTimeFluctuation": 300,
+                "Leyline": false,
+                "UseCustomRange": {
+                    "toggled": true,
+                    "value": null
+                },
+                "UseDelayTimeFluctuation": {
+                    "toggled": true,
+                    "value": null
+                }
+            },
+            "AutoPuzzle": {
+                "Enabled": {
+                    "toggled": true,
+                    "value": null
+                },
+                "Range": 30.0
+            },
+            "AutoTalk": {
+                "AutoTalk": {
+                    "toggled": false,
+                    "value": null
+                }
+            },
+            "AutoTreeFarm": {
+                "Enabled": {
+                    "toggled": true,
+                    "value": null
+                },
+                "Range": 10.0
+            },
+            "CustomTeleports": {
+                "Auto": {
+                    "toggled": true,
+                    "value": null
+                },
+                "DelayTime": 16,
+                "Enabled": {
+                    "toggled": true,
+                    "value": null
+                }
+            },
+            "CustomWeather": {
+                "Enabled": {
+                    "toggled": true,
+                    "value": null
+                },
+                "WeatherType": {
+                    "name": "FountainRain",
+                    "value": 5
+                }
+            },
+            "ElementalAura": {
+                "Enabled": {
+                    "toggled": true,
+                    "value": null
+                },
+                "HitObjectElement": {
+                    "name": "Electro",
+                    "value": 3
+                },
+                "HitSelfElement": {
+                    "name": "Pyro",
+                    "value": 0
+                },
+                "IncludeObjects": true,
+                "OnlyAggro": false
+            },
+            "General": {
+                "ModuleListWidth": 272.0,
+                "SelectedModule": 1
+            },
+            "GodMode": {
+                "Enabled": {
+                    "toggled": true,
+                    "value": null
+                },
+                "Undead": false
+            },
+            "HideUI": {
+                "Enabled": {
+                    "toggled": false,
+                    "value": null
+                }
+            },
+            "KillAura": {
+                "DamageMode": {
+                    "toggled": true,
+                    "value": null
+                },
+                "Enabled": {
+                    "toggled": true,
+                    "value": null
+                },
+                "LeftHP": false,
+                "OnlyTargeted": false,
+                "PercentDamageMode": {
+                    "toggled": true,
+                    "value": null
+                },
+                "PercentDamageTimes": 2,
+                "Range": 5.0
+            },
+            "MobVacuum": {
+                "Distance": 3.0,
+                "Enabled": {
+                    "toggled": true,
+                    "value": null
+                },
+                "OnlyTarget": false,
+                "Radius": 40.0,
+                "SetCollider": {
+                    "toggled": true,
+                    "value": null
+                },
+                "Speed": 15.0
+            },
+            "OpenTeam": {
+                "Enabled": {
+                    "toggled": true,
+                    "value": null
+                }
+            },
+            "Puzzle": {
+                "Filters": {
+                    "Puzzle": {
+                        "Ancient Rime": {
+                            "color": 4286085240,
+                            "enabled": true
+                        },
+                        "Bloatty Floatty": {
+                            "color": 4286085240,
+                            "enabled": true
+                        },
+                        "Campfire Torch": {
+                            "color": 4286085240,
+                            "enabled": true
+                        },
+                        "Dendro Pile": {
+                            "color": 4286085240,
+                            "enabled": true
+                        },
+                        "Dendro Rock": {
+                            "color": 4286085240,
+                            "enabled": true
+                        },
+                        "Electric Conduction": {
+                            "color": 4286085240,
+                            "enabled": true
+                        },
+                        "Electro Seelie": {
+                            "color": 4286085240,
+                            "enabled": true
+                        },
+                        "Elemental Monument": {
+                            "color": 4286085240,
+                            "enabled": true
+                        },
+                        "Floating Anemo Slime": {
+                            "color": 4286085240,
+                            "enabled": true
+                        },
+                        "Geo Puzzle": {
+                            "color": 4286085240,
+                            "enabled": true
+                        },
+                        "Jadewater Fruit": {
+                            "color": 4286085240,
+                            "enabled": true
+                        },
+                        "Large Rock Pile": {
+                            "color": 4286085240,
+                            "enabled": true
+                        },
+                        "Lightning Strike Probe": {
+                            "color": 4286085240,
+                            "enabled": true
+                        },
+                        "Luminous Seelie": {
+                            "color": 4286085240,
+                            "enabled": true
+                        },
+                        "Pneumousia Mechanism": {
+                            "color": 4286085240,
+                            "enabled": true
+                        },
+                        "Pressure Plate": {
+                            "color": 4286085240,
+                            "enabled": true
+                        },
+                        "Seelie": {
+                            "color": 4286085240,
+                            "enabled": true
+                        },
+                        "Small Rock Pile": {
+                            "color": 4286085240,
+                            "enabled": true
+                        },
+                        "Stone Pillar Seal": {
+                            "color": 4286085240,
+                            "enabled": true
+                        },
+                        "Sumeru Puzzles": {
+                            "color": 4286085240,
+                            "enabled": true
+                        },
+                        "The Withering": {
+                            "color": 4286085240,
+                            "enabled": true
+                        },
+                        "Torch Puzzle": {
+                            "color": 4286085240,
+                            "enabled": true
+                        },
+                        "Unique Rocks": {
+                            "color": 4286085240,
+                            "enabled": true
+                        },
+                        "Warming Seelie": {
+                            "color": 4286085240,
+                            "enabled": true
+                        },
+                        "Windmill Mechanism": {
+                            "color": 4286085240,
+                            "enabled": true
+                        }
+                    }
+                }
+            },
+            "RapidFire": {
+                "CustomElement": {
+                    "toggled": false,
+                    "value": null
+                },
+                "Enabled": {
+                    "toggled": true,
+                    "value": null
+                },
+                "Infusion": {
+                    "toggled": false,
+                    "value": null
+                },
+                "InfusionElementType": {
+                    "name": "Pyro",
+                    "value": 1
+                }
+            },
+            "Settings": {
+                "Language": {
+                    "Language": "English"
+                }
+            },
+            "SkipEnhanceAnimation": {
+                "Enabled": true
+            },
+            "Visuals": {
+                "CameraZoom": {
+                    "Enabled": {
+                        "toggled": true,
+                        "value": null
+                    },
+                    "FovValue": 90.0,
+                    "SetFov": {
+                        "toggled": true,
+                        "value": null
+                    }
+                },
+                "ProfileChanger": {
+                    "Enabled": {
+                        "toggled": true,
+                        "value": null
+                    },
+                    "UID": {
+                        "toggled": true,
+                        "value": "Profile: <color=#ff99ff>DailyTP</color>"
+                    }
+                }
+            }
+        },
+        "Normal Play": {
+            "Auto Seelie": {
+                "Enabled": {
+                    "toggled": false,
+                    "value": null
+                }
+            },
+            "AutoChallenge": {
+                "BombDestroy": {
+                    "toggled": false,
+                    "value": null
+                },
+                "Delay": 821,
+                "Enabled": {
+                    "toggled": false,
+                    "value": null
+                }
+            },
+            "AutoDestroy": {
+                "DestroyOres": {
+                    "toggled": true,
+                    "value": null
+                },
+                "DestroyPlants": {
+                    "toggled": true,
+                    "value": null
+                },
+                "Enabled": {
+                    "toggled": true,
+                    "value": null
+                },
+                "Range": 5.0
+            },
+            "AutoFish": {
+                "DelayBeforeRecast": 1000,
+                "Enabled": {
+                    "toggled": true,
+                    "value": null
+                }
+            },
+            "AutoLoot": {
+                "AutoDisablePickupWhenAddItemExceedLimit": {
+                    "toggled": true,
+                    "value": null
+                },
+                "AutoPickup": {
+                    "toggled": true,
+                    "value": null
+                },
+                "AutoTreasure": {
+                    "toggled": true,
+                    "value": null
+                },
+                "DelayTime": 250,
+                "DelayTimeFluctuation": 100,
+                "Leyline": false,
+                "UseCustomRange": {
+                    "toggled": true,
+                    "value": null
+                },
+                "UseDelayTimeFluctuation": {
+                    "toggled": true,
+                    "value": null
+                }
+            },
+            "AutoTalk": {
+                "AutoSelectDialog": {
+                    "toggled": true,
+                    "value": null
+                },
+                "AutoTalk": {
+                    "toggled": true,
+                    "value": 2
+                },
+                "Cutscene": {
+                    "toggled": false,
+                    "value": null
+                },
+                "CutsceneUSM": {
+                    "toggled": false,
+                    "value": null
+                },
+                "Enabled": {
+                    "toggled": true,
+                    "value": 2
+                },
+                "ExcludeImportant_Talk": {
+                    "toggled": true,
+                    "value": null
+                },
+                "FastCutscene": {
+                    "toggled": false,
+                    "value": null
+                },
+                "FastDialog": {
+                    "toggled": false,
+                    "value": null
+                },
+                "SkipDelay": 300,
+                "SkipDialog": {
+                    "toggled": true,
+                    "value": null
+                },
+                "TimeSpeedup": 3.0
+            },
+            "BunnyHop": {
+                "Enabled": {
+                    "toggled": false,
+                    "value": null
+                }
+            },
+            "ChestTeleport": {
+                "FilterBookPage": true,
+                "FilterUnknown": false,
+                "Key": 586
+            },
+            "ConstellationModifier": {
+                "Albedo": true,
+                "Alhaitham": true,
+                "Aloy": true,
+                "Ambor": true,
+                "Ayaka": true,
+                "Ayato": true,
+                "Baizhu": true,
+                "Barbara": true,
+                "Beidou": true,
+                "Bennett": true,
+                "Candace": true,
+                "Charlotte": true,
+                "Chongyun": true,
+                "Collei": true,
+                "Cyno": true,
+                "Dehya": true,
+                "Diluc": true,
+                "Diona": true,
+                "Dori": true,
+                "Enabled": {
+                    "toggled": false,
+                    "value": null
+                },
+                "Eula": true,
+                "Faruzan": true,
+                "Feiyan": true,
+                "Fischl": true,
+                "Freminet": true,
+                "Furina": true,
+                "Ganyu": true,
+                "Gorou": true,
+                "Heizo": true,
+                "Hutao": true,
+                "Itto": true,
+                "Jean": true,
+                "Kaeya": true,
+                "Kaveh": true,
+                "Kazuha": true,
+                "Keqing": true,
+                "Kirara": true,
+                "Klee": true,
+                "Kokomi": true,
+                "Layla": true,
+                "Lisa": true,
+                "Lynette": true,
+                "Lyney": true,
+                "Mika": true,
+                "Mona": true,
+                "Nahida": true,
+                "Neuvillette": true,
+                "Nilou": true,
+                "Ningguang": true,
+                "Noel": true,
+                "Qiqi": true,
+                "Razor": true,
+                "Rosaria": true,
+                "Sara": true,
+                "Sayu": true,
+                "Shenhe": true,
+                "Shinobu": true,
+                "Shougun": true,
+                "Sucrose": true,
+                "Tartaglia": true,
+                "Tighnari": true,
+                "Tohma": true,
+                "Venti": true,
+                "Wanderer": true,
+                "Wriothesley": true,
+                "Xiangling": true,
+                "Xiao": true,
+                "Xingqiu": true,
+                "Xinyan": true,
+                "Yae": true,
+                "Yaoyao": true,
+                "Yelan": true,
+                "Yoimiya": true,
+                "Yunjin": true,
+                "Zhongli": true
+            },
+            "CustomTeleports": {
+                "Auto": {
+                    "toggled": true,
+                    "value": null
+                },
+                "DelayTime": 17,
+                "Enabled": {
+                    "toggled": true,
+                    "value": null
+                },
+                "Next": 561,
+                "Speed": 0.10000000149011612
+            },
+            "CustomWeather": {
+                "Enabled": {
+                    "toggled": false,
+                    "value": null
+                },
+                "Lightning": {
+                    "toggled": false,
+                    "value": null
+                },
+                "WeatherType": {
+                    "name": "ClearSky",
+                    "value": 0
+                }
+            },
+            "ESP": {
+                "DrawBoxMode": {
+                    "name": "Box",
+                    "value": 2
+                },
+                "DrawName": true,
+                "DrawRawName": true,
+                "DrawTracerMode": {
+                    "name": "Line",
+                    "value": 1
+                },
+                "Enabled": {
+                    "toggled": true,
+                    "value": null
+                },
+                "Filters": {
+                    "Chest": {
+                        "Common Chest": {
+                            "color": 4294967295,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Crude Chest": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Exquisite Chest": {
+                            "color": 4278254335,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Luxurious Chest": {
+                            "color": 4278190335,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Precious Chest": {
+                            "color": 4294955008,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Remarkable Chest": {
+                            "color": 4294705310,
+                            "enabled": true,
+                            "hotkey": null
+                        }
+                    },
+                    "Collection": {
+                        "Book": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Book Page": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Geo Sigil": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Radiant Spincrystal": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Viewpoint": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Wooden Crate": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        }
+                    },
+                    "Custom": {
+                        "?": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "A Huge Shell": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Floating Crystal Flower": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Foul Core": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Harmonius Reed Pipe": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Humoungous Hat Jellyfish": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Hydro Tulpa": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Looking Glass": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Magic Bubble": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Potential Energy Orbs": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Telescope?": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "sad": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        }
+                    },
+                    "Featured": {
+                        "Dendroculus": {
+                            "color": 4278255380,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Hydroculus": {
+                            "color": 4294919424,
+                            "enabled": true,
+                            "hotkey": null
+                        }
+                    },
+                    "Plant": {
+                        "Romaritime Flower": {
+                            "color": 4291755776,
+                            "enabled": false,
+                            "hotkey": null
+                        }
+                    },
+                    "Puzzle": {
+                        "Ability Fish Cannon": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Bloatty Floatty": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "F D Column Ray": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Plumeof Purifying Light": {
+                            "color": 4278228479,
+                            "enabled": false,
+                            "hotkey": null
+                        },
+                        "Ray Receiver": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "S X F Y Reservoir": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Seelie": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Small Rock Pile": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Transparent Eel": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Undersea Bac": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        }
+                    }
+                },
+                "FontSize": 24,
+                "GlobalBoxColor": {
+                    "toggled": false,
+                    "value": 4278246909
+                },
+                "GlobalFontColor": {
+                    "toggled": false,
+                    "value": 4278190335
+                },
+                "GlobalLineColor": {
+                    "toggled": true,
+                    "value": 4278255419
+                },
+                "HideCompleted": true,
+                "Range": 300.0
+            },
+            "ElementalAura": {
+                "ApplyInterval": 100,
+                "Durability": 50.0,
+                "Enabled": {
+                    "toggled": false,
+                    "value": null
+                },
+                "HitMonsterElement": {
+                    "name": "Pyro",
+                    "value": 0
+                },
+                "MultiElement": true,
+                "MultiElementAdd": {
+                    "name": "Anemo",
+                    "value": 5
+                },
+                "QueueDelay": 100,
+                "SelfElement": true
+            },
+            "ExtraMovement": {
+                "Enabled": {
+                    "toggled": true,
+                    "value": 590
+                },
+                "FlyBoost": {
+                    "toggled": true,
+                    "value": null
+                },
+                "JumpBoost": {
+                    "toggled": true,
+                    "value": null
+                },
+                "RunBoost": {
+                    "toggled": true,
+                    "value": null
+                },
+                "RunOnWater": {
+                    "toggled": false,
+                    "value": null
+                },
+                "RunVelocity": 5.0
+            },
+            "ExtraVisualSettings": {
+                "Enabled": {
+                    "toggled": false,
+                    "value": null
+                },
+                "OutlineWidth": 0.0
+            },
+            "FallControl": {
+                "Enabled": {
+                    "toggled": false,
+                    "value": null
+                }
+            },
+            "General": {
+                "FPS": {
+                    "FpsShow": {
+                        "toggled": true,
+                        "value": null
+                    }
+                },
+                "InfoWindow": {
+                    "InfoShow": {
+                        "toggled": false,
+                        "value": null
+                    }
+                },
+                "ModuleListWidth": 292.0,
+                "Notify": {
+                    "NotificationsShow": {
+                        "toggled": true,
+                        "value": null
+                    }
+                },
+                "SelectedModule": 2,
+                "StatusWindow": {
+                    "StatusMove": {
+                        "toggled": true,
+                        "value": null
+                    },
+                    "StatusShow": {
+                        "toggled": false,
+                        "value": null
+                    }
+                }
+            },
+            "GodMode": {
+                "Enabled": {
+                    "toggled": true,
+                    "value": null
+                },
+                "MinHealth": 20.0,
+                "MissingRate": 90.0
+            },
+            "HideUI": {
+                "Enabled": {
+                    "toggled": false,
+                    "value": null
+                }
+            },
+            "InfiniteStamina": {
+                "PacketReplacement": true
+            },
+            "InteractiveMap": {
+                "Enabled": {
+                    "toggled": false,
+                    "value": null
+                },
+                "Filters": {
+                    "Scene3": {
+                        "Aircraft": true,
+                        "BuriedChest": true,
+                        "CommonChest": true,
+                        "Dendroculus": true,
+                        "ElementalMonument": true,
+                        "EnemiesFirstTimeVictory": true,
+                        "ExquisiteChest": true,
+                        "FravashiTree": true,
+                        "HarmoniousReedPipe": true,
+                        "Hydroculus": true,
+                        "LuxuriousChest": true,
+                        "MiniPuzzle": true,
+                        "PneumousiaMechanism": true,
+                        "PotentialEnergyOrbs": true,
+                        "PreciousChest": true,
+                        "PressurePlate": true,
+                        "PrimalObelisk": true,
+                        "RemarkableChest": true,
+                        "SealedChest": true,
+                        "Seelie": true,
+                        "TimeTrialChallenge": true
+                    }
+                },
+                "IconSize": 25.649999618530273,
+                "Materials": {
+                    "Weapon{}": {
+                        "TomeoftheEternalFlow": true
+                    }
+                },
+                "MinimapIconSize": 26.540000915527344,
+                "SeparatedWindows": false,
+                "ShowHDIcons": true
+            },
+            "KillAura": {
+                "AttackDelay": 1000,
+                "DamageMode": {
+                    "toggled": true,
+                    "value": null
+                },
+                "DamageValue": 200000.0,
+                "Enabled": {
+                    "toggled": true,
+                    "value": null
+                },
+                "PercentDamageMode": {
+                    "toggled": true,
+                    "value": null
+                }
+            },
+            "MapTeleport": {
+                "Enabled": {
+                    "toggled": true,
+                    "value": null
+                }
+            },
+            "MobVacuum": {
+                "Enabled": {
+                    "toggled": false,
+                    "value": null
+                }
+            },
+            "MonsterChanger": {
+                "Enabled": {
+                    "toggled": false,
+                    "value": null
+                }
+            },
+            "NoCD": {
+                "AbilityReduce": {
+                    "toggled": true,
+                    "value": null
+                },
+                "AvatarCD": {
+                    "toggled": true,
+                    "value": null
+                },
+                "InstantBow": {
+                    "toggled": true,
+                    "value": null
+                },
+                "InstantBow_Bow": true,
+                "Sprint": {
+                    "toggled": true,
+                    "value": null
+                },
+                "TimerReduce": 5.0,
+                "UltimateMaxEnergy": {
+                    "toggled": false,
+                    "value": null
+                }
+            },
+            "NoClip": {
+                "Enabled": {
+                    "toggled": false,
+                    "value": 4
+                }
+            },
+            "OculiTeleport": {
+                "Key": 55
+            },
+            "OpenTeam": {
+                "Enabled": {
+                    "toggled": true,
+                    "value": null
+                }
+            },
+            "Player": {
+                "AutoRun": {
+                    "Enabled": {
+                        "toggled": false,
+                        "value": null
+                    },
+                    "Speed": 0.009999999776482582
+                }
+            },
+            "QuestTeleport": {
+                "Key": 86,
+                "QuestTP": {
+                    "toggled": false,
+                    "value": 186
+                }
+            },
+            "RapidFire": {
+                "AttackSpeed": {
+                    "toggled": false,
+                    "value": null
+                },
+                "CriticalHit": {
+                    "toggled": true,
+                    "value": null
+                },
+                "CriticalHitChance": 90,
+                "CustomElement": {
+                    "toggled": false,
+                    "value": null
+                },
+                "ElementType": {
+                    "name": "Anemo",
+                    "value": 7
+                },
+                "Enabled": {
+                    "toggled": true,
+                    "value": null
+                },
+                "HeadShot": {
+                    "toggled": true,
+                    "value": null
+                },
+                "Infusion": {
+                    "toggled": false,
+                    "value": null
+                },
+                "InfusionBugged": {
+                    "toggled": false,
+                    "value": null
+                },
+                "InfusionElementType": {
+                    "name": "Anemo",
+                    "value": 7
+                },
+                "MultiAnimation": {
+                    "toggled": false,
+                    "value": null
+                },
+                "MultiHit": {
+                    "toggled": true,
+                    "value": null
+                },
+                "MultiTarget": {
+                    "toggled": false,
+                    "value": null
+                },
+                "Randomize": {
+                    "toggled": false,
+                    "value": null
+                },
+                "maxMultiplier": 7,
+                "minMultiplier": 5
+            },
+            "Settings": {
+                "Language": {
+                    "Language": "English"
+                }
+            },
+            "SkinModifier": {
+                "Ambor_100Outrider": true,
+                "Ayaka_SpringbloomMissive": true,
+                "Barbara_SummertimeSparkle": true,
+                "Diluc_RedDeadOfNight": true,
+                "Enabled": {
+                    "toggled": true,
+                    "value": null
+                },
+                "Fischl_EinImmernachtstraum": true,
+                "Ganyu_TwilightBlossom": true,
+                "Kaeya_SailwindShadow": true,
+                "Keqing_OpulentSplendor": true,
+                "Klee_BlossomingStarlight": true,
+                "Lisa_ASobriquetUnderShade": true,
+                "Mona_PactOfStarsandMoon": true,
+                "Ningguang_OrchidsEveningGown": true,
+                "Qin_GunnhildrsLegacy": true,
+                "Qin_SeaBreezeDandelion": true,
+                "Rosaria_ToTheChurchsFreeSpirit": true,
+                "Shenhe_FrostflowerDew": true,
+                "Xingqiu_BambooRain": true
+            },
+            "SkipEnhanceAnimation": {
+                "Enabled": true
+            },
+            "VacuumLoot": {
+                "Distance": 2.0,
+                "Enabled": {
+                    "toggled": false,
+                    "value": null
+                },
+                "MobDropRadius": 10.0,
+                "Radius": 23.5
+            },
+            "Visuals": {
+                "AnimationChanger": {
+                    "Enabled": {
+                        "toggled": true,
+                        "value": null
+                    }
+                },
+                "CameraZoom": {
+                    "Enabled": {
+                        "toggled": false,
+                        "value": null
+                    },
+                    "FovValue": 160.0,
+                    "SetFov": {
+                        "toggled": false,
+                        "value": null
+                    }
+                },
+                "ChestIndicator": {
+                    "Enabled": {
+                        "toggled": true,
+                        "value": null
+                    }
+                },
+                "DolphinDive": {
+                    "Enabled": {
+                        "toggled": true,
+                        "value": null
+                    }
+                },
+                "EmotionChanger": {
+                    "Enabled": {
+                        "toggled": false,
+                        "value": null
+                    }
+                },
+                "EnablePeeking": {
+                    "Enabled": {
+                        "toggled": true,
+                        "value": null
+                    }
+                },
+                "FPSUnlocker": {
+                    "Enabled": true,
+                    "Fps": 360
+                },
+                "MenuUnlocker": {
+                    "Enabled": {
+                        "toggled": false,
+                        "value": null
+                    }
+                },
+                "NoFog": {
+                    "Enabled": {
+                        "toggled": false,
+                        "value": null
+                    }
+                },
+                "NoGrass": {
+                    "Enabled": {
+                        "toggled": false,
+                        "value": null
+                    }
+                },
+                "PaimonFollow": {
+                    "Enabled": {
+                        "toggled": false,
+                        "value": null
+                    }
+                },
+                "ProfileChanger": {
+                    "Enabled": {
+                        "toggled": true,
+                        "value": null
+                    },
+                    "Exp": {
+                        "toggled": false,
+                        "value": null
+                    },
+                    "UID": {
+                        "toggled": true,
+                        "value": "Profile: <color=#ff99ff>Normal Play</color>"
+                    },
+                    "UIDpos_x": 1883.0,
+                    "UIDsize": 15,
+                    "WorldLevel": {
+                        "toggled": false,
+                        "value": "420"
+                    }
+                }
+            }
+        },
+        "OP": {
+            "Auto Seelie": {
+                "Enabled": {
+                    "toggled": true,
+                    "value": null
+                }
+            },
+            "AutoActivateTeleport": {
+                "Enabled": {
+                    "toggled": true,
+                    "value": null
+                }
+            },
+            "AutoChallenge": {
+                "Enabled": {
+                    "toggled": true,
+                    "value": null
+                },
+                "Range": 50.0
+            },
+            "AutoDestroy": {
+                "DestroyDoodads": {
+                    "toggled": true,
+                    "value": null
+                },
+                "DestroyOres": {
+                    "toggled": true,
+                    "value": null
+                },
+                "DestroyPlants": {
+                    "toggled": true,
+                    "value": null
+                },
+                "DestroyShields": {
+                    "toggled": true,
+                    "value": null
+                },
+                "Enabled": {
+                    "toggled": true,
+                    "value": null
+                },
+                "Range": 20.0
+            },
+            "AutoLoot": {
+                "AutoDisablePickupWhenAddItemExceedLimit": {
+                    "toggled": false,
+                    "value": null
+                },
+                "AutoPickup": {
+                    "toggled": true,
+                    "value": null
+                },
+                "AutoTreasure": {
+                    "toggled": true,
+                    "value": null
+                },
+                "CustomRange": 10.0,
+                "Leyline": false,
+                "PickupFilter": {
+                    "toggled": false,
+                    "value": null
+                },
+                "UseCustomRange": {
+                    "toggled": true,
+                    "value": null
+                },
+                "UseDelayTimeFluctuation": {
+                    "toggled": true,
+                    "value": null
+                }
+            },
+            "AutoPuzzle": {
+                "Enabled": {
+                    "toggled": true,
+                    "value": null
+                },
+                "Range": 30.0
+            },
+            "AutoTalk": {
+                "AutoSelectDialog": {
+                    "toggled": true,
+                    "value": null
+                },
+                "AutoTalk": {
+                    "toggled": true,
+                    "value": null
+                },
+                "ExcludeImportant_Talk": {
+                    "toggled": true,
+                    "value": null
+                },
+                "FastDialog": {
+                    "toggled": false,
+                    "value": null
+                },
+                "SkipDelay": 200,
+                "SkipDialog": {
+                    "toggled": true,
+                    "value": null
+                }
+            },
+            "AutoTreeFarm": {
+                "Enabled": {
+                    "toggled": true,
+                    "value": null
+                }
+            },
+            "ConstellationModifier": {
+                "Albedo": true,
+                "Alhaitham": true,
+                "Aloy": true,
+                "Ambor": true,
+                "Ayaka": true,
+                "Ayato": true,
+                "Baizhu": true,
+                "Barbara": true,
+                "Beidou": true,
+                "Bennett": true,
+                "Candace": true,
+                "Charlotte": true,
+                "Chevreuse": true,
+                "Chongyun": true,
+                "Collei": true,
+                "Cyno": true,
+                "Dehya": true,
+                "Diluc": true,
+                "Diona": true,
+                "Dori": true,
+                "Enabled": {
+                    "toggled": true,
+                    "value": null
+                },
+                "Eula": true,
+                "Faruzan": true,
+                "Feiyan": true,
+                "Fischl": true,
+                "Freminet": true,
+                "Furina": true,
+                "Ganyu": true,
+                "Gorou": true,
+                "Heizo": true,
+                "Hutao": true,
+                "Itto": true,
+                "Jean": true,
+                "Kaeya": true,
+                "Kaveh": true,
+                "Kazuha": true,
+                "Keqing": true,
+                "Kirara": true,
+                "Klee": true,
+                "Kokomi": true,
+                "Layla": true,
+                "Lisa": true,
+                "Lynette": true,
+                "Lyney": true,
+                "Mika": true,
+                "Mona": true,
+                "Nahida": true,
+                "Navia": true,
+                "Neuvillette": true,
+                "Nilou": true,
+                "Ningguang": true,
+                "Noel": true,
+                "Qiqi": true,
+                "Razor": true,
+                "Rosaria": true,
+                "Sara": true,
+                "Sayu": true,
+                "Shenhe": true,
+                "Shinobu": true,
+                "Shougun": true,
+                "Sucrose": true,
+                "Tartaglia": true,
+                "Tighnari": true,
+                "Tohma": true,
+                "Venti": true,
+                "Wanderer": true,
+                "Wriothesley": true,
+                "Xiangling": true,
+                "Xiao": true,
+                "Xingqiu": true,
+                "Xinyan": true,
+                "Yae": true,
+                "Yaoyao": true,
+                "Yelan": true,
+                "Yoimiya": true,
+                "Yunjin": true,
+                "Zhongli": true
+            },
+            "DumbEnemies": {
+                "Enabled": {
+                    "toggled": false,
+                    "value": null
+                }
+            },
+            "ElementalAura": {
+                "ApplyInterval": 0,
+                "Enabled": {
+                    "toggled": true,
+                    "value": null
+                },
+                "MultiElement": true,
+                "MultiElementAdd": {
+                    "name": "Dendro",
+                    "value": 2
+                },
+                "QueueDelay": 0
+            },
+            "ExtraMovement": {
+                "Enabled": {
+                    "toggled": true,
+                    "value": null
+                },
+                "FlyBoost": {
+                    "toggled": true,
+                    "value": null
+                },
+                "JumpBoost": {
+                    "toggled": true,
+                    "value": null
+                },
+                "RunBoost": {
+                    "toggled": true,
+                    "value": null
+                },
+                "RunOnWater": {
+                    "toggled": false,
+                    "value": null
+                }
+            },
+            "General": {
+                "SelectedModule": 3
+            },
+            "GodMode": {
+                "Enabled": {
+                    "toggled": true,
+                    "value": null
+                }
+            },
+            "InfiniteStamina": {
+                "PacketReplacement": true
+            },
+            "KillAura": {
+                "DamageMode": {
+                    "toggled": true,
+                    "value": null
+                },
+                "DamageValue": 1000000.0,
+                "Enabled": {
+                    "toggled": true,
+                    "value": null
+                },
+                "InstantDeathMode": {
+                    "toggled": false,
+                    "value": null
+                },
+                "LeftHP": false,
+                "OnlyTargeted": false,
+                "PercentDamageMode": {
+                    "toggled": true,
+                    "value": null
+                },
+                "PercentDamageTimes": 2
+            },
+            "MapTeleport": {
+                "Enabled": {
+                    "toggled": true,
+                    "value": null
+                },
+                "FastTP": {
+                    "toggled": true,
+                    "value": null
+                },
+                "FastTPThreshold": 10000.0
+            },
+            "MobVacuum": {
+                "Enabled": {
+                    "toggled": true,
+                    "value": null
+                },
+                "Instantly": true,
+                "Radius": 30.0,
+                "Speed": 10.0
+            },
+            "NoCD": {
+                "AbilityReduce": {
+                    "toggled": true,
+                    "value": null
+                },
+                "AvatarCD": {
+                    "toggled": true,
+                    "value": null
+                },
+                "InstantBow": {
+                    "toggled": true,
+                    "value": null
+                },
+                "InstantBow_Bow": true,
+                "InstantBow_Other": true,
+                "Sprint": {
+                    "toggled": true,
+                    "value": null
+                },
+                "TimerReduce": 2.0,
+                "UltimateMaxEnergy": {
+                    "toggled": true,
+                    "value": null
+                }
+            },
+            "OpenTeam": {
+                "Enabled": {
+                    "toggled": true,
+                    "value": null
+                }
+            },
+            "Puzzle": {
+                "Filters": {
+                    "Puzzle": {
+                        "Ancient Rime": {
+                            "color": 4286085240,
+                            "enabled": true
+                        },
+                        "Bloatty Floatty": {
+                            "color": 4286085240,
+                            "enabled": true
+                        },
+                        "Campfire Torch": {
+                            "color": 4286085240,
+                            "enabled": true
+                        },
+                        "Dendro Pile": {
+                            "color": 4286085240,
+                            "enabled": true
+                        },
+                        "Dendro Rock": {
+                            "color": 4286085240,
+                            "enabled": true
+                        },
+                        "Electric Conduction": {
+                            "color": 4286085240,
+                            "enabled": true
+                        },
+                        "Electro Seelie": {
+                            "color": 4286085240,
+                            "enabled": true
+                        },
+                        "Elemental Monument": {
+                            "color": 4286085240,
+                            "enabled": true
+                        },
+                        "Floating Anemo Slime": {
+                            "color": 4286085240,
+                            "enabled": true
+                        },
+                        "Geo Puzzle": {
+                            "color": 4286085240,
+                            "enabled": true
+                        },
+                        "Jadewater Fruit": {
+                            "color": 4286085240,
+                            "enabled": true
+                        },
+                        "Large Rock Pile": {
+                            "color": 4286085240,
+                            "enabled": true
+                        },
+                        "Lightning Strike Probe": {
+                            "color": 4286085240,
+                            "enabled": true
+                        },
+                        "Luminous Seelie": {
+                            "color": 4286085240,
+                            "enabled": true
+                        },
+                        "Pneumousia Mechanism": {
+                            "color": 4286085240,
+                            "enabled": true
+                        },
+                        "Pressure Plate": {
+                            "color": 4286085240,
+                            "enabled": true
+                        },
+                        "Seelie": {
+                            "color": 4286085240,
+                            "enabled": true
+                        },
+                        "Small Rock Pile": {
+                            "color": 4286085240,
+                            "enabled": true
+                        },
+                        "Stone Pillar Seal": {
+                            "color": 4286085240,
+                            "enabled": true
+                        },
+                        "Sumeru Puzzles": {
+                            "color": 4286085240,
+                            "enabled": true
+                        },
+                        "The Withering": {
+                            "color": 4286085240,
+                            "enabled": true
+                        },
+                        "Torch Puzzle": {
+                            "color": 4286085240,
+                            "enabled": true
+                        },
+                        "Unique Rocks": {
+                            "color": 4286085240,
+                            "enabled": true
+                        },
+                        "Warming Seelie": {
+                            "color": 4286085240,
+                            "enabled": true
+                        },
+                        "Windmill Mechanism": {
+                            "color": 4286085240,
+                            "enabled": true
+                        }
+                    }
+                }
+            },
+            "RapidFire": {
+                "AnimationMultiplier": 150,
+                "CriticalHit": {
+                    "toggled": true,
+                    "value": null
+                },
+                "Enabled": {
+                    "toggled": true,
+                    "value": null
+                },
+                "HeadShot": {
+                    "toggled": true,
+                    "value": null
+                },
+                "MultiAnimation": {
+                    "toggled": false,
+                    "value": null
+                },
+                "MultiHit": {
+                    "toggled": true,
+                    "value": null
+                },
+                "MultiTarget": {
+                    "toggled": true,
+                    "value": null
+                },
+                "Multiplier": 5
+            },
+            "SkinModifier": {
+                "Ambor_100Outrider": true,
+                "Ayaka_SpringbloomMissive": true,
+                "Barbara_SummertimeSparkle": true,
+                "Diluc_RedDeadOfNight": true,
+                "Enabled": {
+                    "toggled": true,
+                    "value": null
+                },
+                "Fischl_EinImmernachtstraum": true,
+                "Ganyu_TwilightBlossom": true,
+                "Kaeya_SailwindShadow": true,
+                "Keqing_OpulentSplendor": true,
+                "Klee_BlossomingStarlight": true,
+                "Lisa_ASobriquetUnderShade": true,
+                "Mona_PactOfStarsandMoon": true,
+                "Ningguang_OrchidsEveningGown": true,
+                "Qin_GunnhildrsLegacy": true,
+                "Qin_SeaBreezeDandelion": true,
+                "Rosaria_ToTheChurchsFreeSpirit": true,
+                "Shenhe_FrostflowerDew": true,
+                "Xingqiu_BambooRain": true
+            },
+            "SkipEnhanceAnimation": {
+                "Enabled": true
+            },
+            "VacuumLoot": {
+                "Enabled": {
+                    "toggled": false,
+                    "value": null
+                }
+            },
+            "Visuals": {
+                "ChestIndicator": {
+                    "Enabled": {
+                        "toggled": false,
+                        "value": null
+                    }
+                },
+                "DolphinDive": {
+                    "Enabled": {
+                        "toggled": false,
+                        "value": null
+                    }
+                },
+                "EnablePeeking": {
+                    "Enabled": {
+                        "toggled": false,
+                        "value": null
+                    }
+                },
+                "GMIcon": {
+                    "Enabled": {
+                        "toggled": false,
+                        "value": null
+                    }
+                },
+                "NoFog": {
+                    "Enabled": {
+                        "toggled": false,
+                        "value": null
+                    }
+                },
+                "NoGrass": {
+                    "Enabled": {
+                        "toggled": false,
+                        "value": null
+                    }
+                },
+                "NoMapFog": {
+                    "Enabled": {
+                        "toggled": false,
+                        "value": null
+                    }
+                },
+                "PaimonFollow": {
+                    "Enabled": {
+                        "toggled": false,
+                        "value": null
+                    }
+                },
+                "ProfileChanger": {
+                    "Enabled": {
+                        "toggled": true,
+                        "value": null
+                    },
+                    "UID": {
+                        "toggled": true,
+                        "value": "Profile: <color=#ff99ff>OP</color>"
+                    }
+                }
+            }
+        },
+        "Safe": {
+            "Auto Seelie": {
+                "Enabled": {
+                    "toggled": false,
+                    "value": null
+                }
+            },
+            "AutoDestroy": {
+                "DestroyDoodads": {
+                    "toggled": true,
+                    "value": null
+                },
+                "DestroyOres": {
+                    "toggled": true,
+                    "value": null
+                },
+                "DestroyPlants": {
+                    "toggled": true,
+                    "value": null
+                },
+                "DestroyShields": {
+                    "toggled": true,
+                    "value": null
+                },
+                "Enabled": {
+                    "toggled": true,
+                    "value": null
+                },
+                "Range": 5.0
+            },
+            "AutoFish": {
+                "AutoRecastRod": false
+            },
+            "AutoLoot": {
+                "AutoDisablePickupWhenAddItemExceedLimit": {
+                    "toggled": true,
+                    "value": null
+                },
+                "AutoPickup": {
+                    "toggled": true,
+                    "value": null
+                },
+                "AutoTreasure": {
+                    "toggled": true,
+                    "value": null
+                },
+                "DelayTime": 250,
+                "DelayTimeFluctuation": 50,
+                "Leyline": false,
+                "UseCustomRange": {
+                    "toggled": true,
+                    "value": null
+                },
+                "UseDelayTimeFluctuation": {
+                    "toggled": true,
+                    "value": null
+                }
+            },
+            "AutoTalk": {
+                "AutoSelectDialog": {
+                    "toggled": true,
+                    "value": null
+                },
+                "AutoTalk": {
+                    "toggled": true,
+                    "value": null
+                },
+                "Cutscene": {
+                    "toggled": false,
+                    "value": null
+                },
+                "CutsceneUSM": {
+                    "toggled": false,
+                    "value": null
+                },
+                "Enabled": {
+                    "toggled": false,
+                    "value": 4
+                },
+                "FastDialog": {
+                    "toggled": true,
+                    "value": null
+                },
+                "TimeSpeedup": 2.0
+            },
+            "ChestTeleport": {
+                "Key": 54
+            },
+            "CustomWeather": {
+                "Enabled": {
+                    "toggled": false,
+                    "value": null
+                },
+                "WeatherType": {
+                    "name": "ClearSky",
+                    "value": 0
+                }
+            },
+            "ESP": {
+                "Enabled": {
+                    "toggled": false,
+                    "value": null
+                },
+                "Filters": {
+                    "Chest": {
+                        "Common Chest": {
+                            "color": 4294967295,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Exquisite Chest": {
+                            "color": 4278254335,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Luxurious Chest": {
+                            "color": 4278190335,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Precious Chest": {
+                            "color": 4294955008,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Remarkable Chest": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        }
+                    },
+                    "Collection": {
+                        "Radiant Spincrystal": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        }
+                    },
+                    "Featured": {
+                        "Dendroculus": {
+                            "color": 4278255380,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Hydroculus": {
+                            "color": 4294919424,
+                            "enabled": true,
+                            "hotkey": null
+                        }
+                    },
+                    "Plant": {
+                        "Henna Berry": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        }
+                    }
+                },
+                "GlobalBoxColor": {
+                    "toggled": false,
+                    "value": 4278246909
+                },
+                "GlobalFontColor": {
+                    "toggled": true,
+                    "value": 4278190335
+                },
+                "GlobalLineColor": {
+                    "toggled": true,
+                    "value": 4278255419
+                }
+            },
+            "ExtraMovement": {
+                "Enabled": {
+                    "toggled": false,
+                    "value": 187
+                },
+                "FlyBoost": {
+                    "toggled": true,
+                    "value": null
+                },
+                "JumpBoost": {
+                    "toggled": false,
+                    "value": null
+                },
+                "RunBoost": {
+                    "toggled": false,
+                    "value": null
+                },
+                "RunOnWater": {
+                    "toggled": false,
+                    "value": null
+                },
+                "RunVelocity": 13.789999961853027
+            },
+            "General": {
+                "FPS": {
+                    "FpsShow": {
+                        "toggled": true,
+                        "value": null
+                    }
+                },
+                "InfoWindow": {
+                    "InfoShow": {
+                        "toggled": false,
+                        "value": null
+                    }
+                },
+                "Notify": {
+                    "NotificationsShow": {
+                        "toggled": true,
+                        "value": null
+                    }
+                },
+                "SelectedModule": 2,
+                "StatusWindow": {
+                    "StatusShow": {
+                        "toggled": true,
+                        "value": null
+                    }
+                }
+            },
+            "GodMode": {
+                "Enabled": {
+                    "toggled": true,
+                    "value": null
+                },
+                "MinHealth": 94.9000015258789,
+                "MissingRate": 38.599998474121094
+            },
+            "InfiniteStamina": {
+                "Enabled": {
+                    "toggled": false,
+                    "value": null
+                },
+                "PacketReplacement": true
+            },
+            "InteractiveMap": {
+                "Enabled": {
+                    "toggled": false,
+                    "value": null
+                },
+                "SeparatedWindows": false
+            },
+            "KillAura": {
+                "AttackDelay": 1000,
+                "DamageMode": {
+                    "toggled": false,
+                    "value": null
+                },
+                "DamageValue": 100000.0,
+                "Enabled": {
+                    "toggled": false,
+                    "value": null
+                },
+                "OnlyTargeted": false,
+                "RepeatDelay": 2000
+            },
+            "MobVacuum": {
+                "Enabled": {
+                    "toggled": false,
+                    "value": null
+                }
+            },
+            "NoCD": {
+                "AbilityReduce": {
+                    "toggled": true,
+                    "value": null
+                },
+                "AvatarCD": {
+                    "toggled": true,
+                    "value": null
+                },
+                "InstantBow": {
+                    "toggled": true,
+                    "value": null
+                },
+                "InstantBow_Bow": true,
+                "Sprint": {
+                    "toggled": false,
+                    "value": null
+                },
+                "TimerReduce": 5.0
+            },
+            "NoClip": {
+                "Enabled": {
+                    "toggled": false,
+                    "value": 186
+                },
+                "NoAnimation": {
+                    "toggled": true,
+                    "value": null
+                }
+            },
+            "OculiTeleport": {
+                "Key": 55
+            },
+            "OpenTeam": {
+                "Enabled": {
+                    "toggled": false,
+                    "value": null
+                }
+            },
+            "QuestTeleport": {
+                "Key": 86,
+                "QuestTP": {
+                    "toggled": false,
+                    "value": 186
+                }
+            },
+            "RapidFire": {
+                "CriticalChance": true,
+                "CriticalHit": {
+                    "toggled": true,
+                    "value": null
+                },
+                "Enabled": {
+                    "toggled": true,
+                    "value": null
+                },
+                "MultiHit": {
+                    "toggled": false,
+                    "value": null
+                }
+            },
+            "VacuumLoot": {
+                "Enabled": {
+                    "toggled": false,
+                    "value": null
+                }
+            },
+            "Visuals": {
+                "ChestIndicator": {
+                    "Enabled": {
+                        "toggled": true,
+                        "value": null
+                    }
+                },
+                "EnablePeeking": {
+                    "Enabled": {
+                        "toggled": true,
+                        "value": null
+                    }
+                },
+                "FPSUnlocker": {
+                    "Enabled": true
+                },
+                "NoFog": {
+                    "Enabled": {
+                        "toggled": true,
+                        "value": null
+                    }
+                },
+                "NoGrass": {
+                    "Enabled": {
+                        "toggled": true,
+                        "value": null
+                    }
+                },
+                "ProfileChanger": {
+                    "Enabled": {
+                        "toggled": true,
+                        "value": null
+                    },
+                    "UID": {
+                        "toggled": true,
+                        "value": "Profile: <color=#ff99ff>Safe</color>"
+                    }
+                }
+            }
+        }
+    }
+}
