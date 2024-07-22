@@ -1682,7 +1682,7 @@
                 },
                 "DolphinDive": {
                     "Enabled": {
-                        "toggled": true,
+                        "toggled": false,
                         "value": null
                     }
                 },
