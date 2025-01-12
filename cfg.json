@@ -169,22 +169,22 @@
                         "value": null
                     }
                 },
-                "SelectedModule": 1,
+                "SelectedModule": 2,
                 "StatusWindow": {
                     "StatusShow": {
-                        "toggled": true,
+                        "toggled": false,
                         "value": null
                     }
                 }
             },
             "GodMode": {
                 "Enabled": {
-                    "toggled": false,
+                    "toggled": true,
                     "value": null
                 },
                 "MinHealth": 20.0,
                 "MissingRate": 90.0,
-                "Undead": false
+                "Undead": true
             },
             "InteractiveMap": {
                 "Enabled": {
@@ -287,7 +287,12 @@
                 "NullIncomingElement": {
                     "toggled": true,
                     "value": null
-                }
+                },
+                "Randomize": {
+                    "toggled": true,
+                    "value": null
+                },
+                "minMultiplier": 2
             },
             "SkinModifier": {
                 "Ambor_100Outrider": true,
@@ -594,7 +599,7 @@
                     "value": null
                 },
                 "CustomRange": 20.0,
-                "DelayTimeFluctuation": 300,
+                "DelayTimeFluctuation": 250,
                 "Leyline": false,
                 "UseCustomRange": {
                     "toggled": true,
@@ -630,7 +635,7 @@
                     "toggled": true,
                     "value": null
                 },
-                "DelayTime": 16,
+                "DelayTime": 15,
                 "Enabled": {
                     "toggled": true,
                     "value": null
@@ -664,7 +669,13 @@
             },
             "General": {
                 "ModuleListWidth": 272.0,
-                "SelectedModule": 1
+                "SelectedModule": 7,
+                "StatusWindow": {
+                    "StatusShow": {
+                        "toggled": false,
+                        "value": null
+                    }
+                }
             },
             "GodMode": {
                 "Enabled": {
@@ -695,7 +706,8 @@
                     "value": null
                 },
                 "PercentDamageTimes": 2,
-                "Range": 5.0
+                "Range": 5.0,
+                "RepeatDelay": 500
             },
             "MobVacuum": {
                 "Distance": 3.0,
@@ -773,6 +785,10 @@
                             "enabled": true
                         },
                         "Luminous Seelie": {
+                            "color": 4286085240,
+                            "enabled": true
+                        },
+                        "Monetoo": {
                             "color": 4286085240,
                             "enabled": true
                         },
@@ -907,6 +923,7 @@
                 "Range": 5.0
             },
             "AutoFish": {
+                "AutoRecastRod": false,
                 "DelayBeforeRecast": 1000,
                 "Enabled": {
                     "toggled": true,
@@ -1239,14 +1256,54 @@
                         }
                     },
                     "Featured": {
+                        "Anemoculus": {
+                            "color": 4292672335,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Crimson Agate": {
+                            "color": 4279703550,
+                            "enabled": true,
+                            "hotkey": null
+                        },
                         "Dendroculus": {
                             "color": 4278255380,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Electroculus": {
+                            "color": 4294719701,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Geoculus": {
+                            "color": 4284135934,
                             "enabled": true,
                             "hotkey": null
                         },
                         "Hydroculus": {
                             "color": 4294919424,
                             "enabled": true,
+                            "hotkey": null
+                        },
+                        "Lumenspar": {
+                            "color": 4294956544,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Pyroculus": {
+                            "color": 4278215930,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Spirit Carp": {
+                            "color": 4294939008,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Time Trial Challenge": {
+                            "color": 4278848111,
+                            "enabled": false,
                             "hotkey": null
                         }
                     },
@@ -1268,8 +1325,18 @@
                             "enabled": true,
                             "hotkey": null
                         },
+                        "Electro Seelie": {
+                            "color": 4286127219,
+                            "enabled": true,
+                            "hotkey": null
+                        },
                         "F D Column Ray": {
                             "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Monetoo": {
+                            "color": 4294404320,
                             "enabled": true,
                             "hotkey": null
                         },
@@ -1289,7 +1356,7 @@
                             "hotkey": null
                         },
                         "Seelie": {
-                            "color": 4286085240,
+                            "color": 4294574026,
                             "enabled": true,
                             "hotkey": null
                         },
@@ -1305,6 +1372,11 @@
                         },
                         "Undersea Bac": {
                             "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Warming Seelie": {
+                            "color": 4283463617,
                             "enabled": true,
                             "hotkey": null
                         }
@@ -1419,7 +1491,8 @@
                     "value": null
                 },
                 "MinHealth": 20.0,
-                "MissingRate": 90.0
+                "MissingRate": 90.0,
+                "Undead": true
             },
             "HideUI": {
                 "Enabled": {
@@ -1518,6 +1591,7 @@
                     "value": null
                 },
                 "InstantBow_Bow": true,
+                "InstantBow_Other": true,
                 "Sprint": {
                     "toggled": true,
                     "value": null
@@ -1610,11 +1684,14 @@
                     "value": null
                 },
                 "Randomize": {
-                    "toggled": false,
+                    "toggled": true,
                     "value": null
                 },
-                "maxMultiplier": 7,
-                "minMultiplier": 5
+                "minMultiplier": 2
+            },
+            "RemoteUtility": {
+                "CondensedResinHotkey": 567,
+                "DailyCommissionHotkey": 565
             },
             "Settings": {
                 "Language": {
@@ -1632,16 +1709,20 @@
                 },
                 "Fischl_EinImmernachtstraum": true,
                 "Ganyu_TwilightBlossom": true,
+                "Hutao_CherriesSnowLaden": true,
                 "Kaeya_SailwindShadow": true,
                 "Keqing_OpulentSplendor": true,
+                "Kirara_PhantomInBoots": true,
                 "Klee_BlossomingStarlight": true,
                 "Lisa_ASobriquetUnderShade": true,
                 "Mona_PactOfStarsandMoon": true,
+                "Nilou_BreezeOfSabaa": true,
                 "Ningguang_OrchidsEveningGown": true,
                 "Qin_GunnhildrsLegacy": true,
                 "Qin_SeaBreezeDandelion": true,
                 "Rosaria_ToTheChurchsFreeSpirit": true,
                 "Shenhe_FrostflowerDew": true,
+                "Xiangling_NewYearsCheer": true,
                 "Xingqiu_BambooRain": true
             },
             "SkipEnhanceAnimation": {
@@ -1659,7 +1740,7 @@
             "Visuals": {
                 "AnimationChanger": {
                     "Enabled": {
-                        "toggled": true,
+                        "toggled": false,
                         "value": null
                     }
                 },
@@ -1700,7 +1781,8 @@
                 },
                 "FPSUnlocker": {
                     "Enabled": true,
-                    "Fps": 360
+                    "Fps": 360,
+                    "Limit": true
                 },
                 "MenuUnlocker": {
                     "Enabled": {
@@ -1738,12 +1820,6 @@
                     "UID": {
                         "toggled": true,
                         "value": "Profile: <color=#ff99ff>Normal Play</color>"
-                    },
-                    "UIDpos_x": 1883.0,
-                    "UIDsize": 15,
-                    "WorldLevel": {
-                        "toggled": false,
-                        "value": "420"
                     }
                 }
             }
@@ -1791,6 +1867,14 @@
                 },
                 "Range": 20.0
             },
+            "AutoFish": {
+                "AutoRecastRod": false,
+                "DelayBeforeCatch": 1000,
+                "Enabled": {
+                    "toggled": true,
+                    "value": null
+                }
+            },
             "AutoLoot": {
                 "AutoDisablePickupWhenAddItemExceedLimit": {
                     "toggled": false,
@@ -1805,6 +1889,7 @@
                     "value": null
                 },
                 "CustomRange": 10.0,
+                "DelayTimeFluctuation": 100,
                 "Leyline": false,
                 "PickupFilter": {
                     "toggled": false,
@@ -1943,6 +2028,144 @@
                     "value": null
                 }
             },
+            "ESP": {
+                "DrawDistance": true,
+                "DrawName": true,
+                "Enabled": {
+                    "toggled": true,
+                    "value": null
+                },
+                "Filters": {
+                    "Chest": {
+                        "Common Chest": {
+                            "color": 4294967295,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Exquisite Chest": {
+                            "color": 4282640634,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Luxurious Chest": {
+                            "color": 4278190335,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Precious Chest": {
+                            "color": 4294945084,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Remarkable Chest": {
+                            "color": 4293656765,
+                            "enabled": true,
+                            "hotkey": null
+                        }
+                    },
+                    "Featured": {
+                        "Anemoculus": {
+                            "color": 4291886947,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Crimson Agate": {
+                            "color": 4278190335,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Dendroculus": {
+                            "color": 4278255467,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Electroculus": {
+                            "color": 4294901928,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Geoculus": {
+                            "color": 4285385471,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Hydroculus": {
+                            "color": 4294930432,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Key Sigil": {
+                            "color": 4286817947,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Lumenspar": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Pyroculus": {
+                            "color": 4278220287,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Spirit Carp": {
+                            "color": 4294915658,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Time Trial Challenge": {
+                            "color": 4278190189,
+                            "enabled": true,
+                            "hotkey": null
+                        }
+                    },
+                    "Puzzle": {
+                        "Bloatty Floatty": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Floating Anemo Slime": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Luminous Seelie": {
+                            "color": 4294962098,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Monetoo": {
+                            "color": 4294926073,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Plumeof Purifying Light": {
+                            "color": 4280267775,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Seelie": {
+                            "color": 4294961261,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Warming Seelie": {
+                            "color": 4284915179,
+                            "enabled": true,
+                            "hotkey": null
+                        }
+                    }
+                },
+                "FontSize": 20,
+                "GlobalLineColor": {
+                    "toggled": true,
+                    "value": 4278255380
+                },
+                "HideCompleted": true,
+                "Range": 300.0
+            },
             "ElementalAura": {
                 "ApplyInterval": 0,
                 "Enabled": {
@@ -1979,7 +2202,7 @@
                 }
             },
             "General": {
-                "SelectedModule": 3
+                "SelectedModule": 4
             },
             "GodMode": {
                 "Enabled": {
@@ -2010,7 +2233,7 @@
                     "toggled": true,
                     "value": null
                 },
-                "PercentDamageTimes": 2
+                "RepeatDelay": 500
             },
             "MapTeleport": {
                 "Enabled": {
@@ -2030,6 +2253,10 @@
                 },
                 "Instantly": true,
                 "Radius": 30.0,
+                "SetCollider": {
+                    "toggled": true,
+                    "value": null
+                },
                 "Speed": 10.0
             },
             "NoCD": {
@@ -2122,6 +2349,10 @@
                             "color": 4286085240,
                             "enabled": true
                         },
+                        "Monetoo": {
+                            "color": 4286085240,
+                            "enabled": true
+                        },
                         "Pneumousia Mechanism": {
                             "color": 4286085240,
                             "enabled": true
@@ -2195,7 +2426,17 @@
                     "toggled": true,
                     "value": null
                 },
-                "Multiplier": 5
+                "Multiplier": 5,
+                "Randomize": {
+                    "toggled": true,
+                    "value": null
+                },
+                "maxMultiplier": 5,
+                "minMultiplier": 3
+            },
+            "RemoteUtility": {
+                "CondensedResinHotkey": 567,
+                "DailyCommissionHotkey": 565
             },
             "SkinModifier": {
                 "Ambor_100Outrider": true,
